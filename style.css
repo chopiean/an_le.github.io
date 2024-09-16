@@ -1,0 +1,103 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 40px 60px;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+.heading-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading-info-header {
+  margin-right: 44px;
+}
+.heading-info-header-h1 {
+  font-weight: 100;
+}
+.heading-info-header-h1:hover {
+  cursor: pointer;
+}
+.heading-info-tag {
+  display: flex;
+  position: relative;
+  padding: 15px 23px 0 0;
+}
+.heading-info-tag-each {
+  font-size: 18px;
+}
+.heading-info-tag-each:hover {
+  cursor: pointer;
+}
+.heading-info-tag--active {
+  width: 5px;
+  color: black;
+}
+.heading-icon {
+  margin-top: 30px;
+}
+.heading-icon--each {
+  padding-right: 15px;
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+}
+.container {
+  margin-top: 100px;
+}
+.container-content {
+  display: flex;
+  justify-content: space-between;
+}
+.container-content--img-i {
+  width: 655px;
+  height: 480px;
+}
+.container-content--img-i:hover {
+  cursor: pointer;
+}
+.container-content-name {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.container-content-name--link {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+}
+.introduction-int {
+  width: 650px;
+  height: 165px;
+}
+.introduction-int--text {
+  font-weight: 300;
+}
+.introduction-slogan {
+  margin-top: 50px;
+  width: 280px;
+  border-bottom: 1px solid black;
+}
+.introduction-slogan--text {
+  color: black;
+  font-size: 34px;
+  font-weight: 300;
+  text-decoration: none;
+}
+.footer {
+  margin-top: 220px;
+}
+.footer-info {
+  margin-bottom: 33px;
+}
+.footer-info--text {
+  font-size: 18px;
+}
+.footer-made--text {
+  font-size: 18px;
+}
+.footer-made--link {
+  color: black;
+}
